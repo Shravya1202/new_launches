@@ -1,0 +1,127 @@
+* {box-sizing:border-box}
+
+#heading {
+    text-align: center;
+    padding-top: 30px;
+    background-color: rgb(237, 231, 231);
+}
+
+.category-container{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.category-item {
+    margin: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    display:flex;
+}
+
+#item {
+    margin-right:10px;
+    text-align: center;
+    color: blue;
+}
+
+#item p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+}
+
+#head {
+    height: 30px;
+    width: 30px;
+    color: blue;
+    background-color: white;
+}
+
+.icon {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    color: blue;
+    font-size: 60px;
+    padding: 10px;
+}
+
+.icon:hover {
+    color: white;
+    background-color: blue;
+    border: 1px solid blue;
+}
+
+.product_heading {
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.product-container {
+    text-align: center;
+    justify-content: center;
+}
+
+.product-item {
+    display:inline-block;
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.product-item img{
+    border:1px solid transparent;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    display: block;
+}
+
+.details {
+    border:1px solid lightblue;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightblue;
+    color: black;
+    width: 300px;
+    text-align: center;
+    display: block;
+}
+
+#view {
+    color: blue;
+    border: 2px solid lightgray;
+    border-radius: 30px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    margin: 20px;
+    margin-right: 400px;
+    margin-left: 400px;
+    padding: 5px;
+    text-align: center;
+}
+
+#view:hover {
+    color: white;
+    background-color: blue;
+    border: 2px solid blue;
+}
+
+#new_arrivals {
+    display:inline-block;
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+    scroll-behavior: smooth;
+}
+
+#new_arrivals img{
+    border:1px solid transparent;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    display: block;
+}
+
